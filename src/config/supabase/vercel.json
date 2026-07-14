@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_SUPABASE_URL": "https://your-project-id.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "your-publishable-key"
+  }
+}
