@@ -10,13 +10,15 @@ import Todo from './pages/Todo.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-  <Navbar/>
-  <Routes>
-    <Route index element={<Home/>}/>
-    <Route path='about' element={<About/>}/>
-    <Route path='login' element={<Login/>}/>
-    <Route path='register' element={<Register/>}/>
-    <Route path='todo' element={<Todo/>}/>
-  </Routes>
+    <div className="min-h-screen bg-gray-50">
+      <Navbar />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='login' element={<Login />} />
+        <Route path='register' element={<Register />} />
+        <Route path='todo' element={<Todo />} />
+      </Routes>
+    </div>
   </BrowserRouter>
 )
